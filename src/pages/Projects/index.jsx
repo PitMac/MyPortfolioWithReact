@@ -45,8 +45,8 @@ export default function Projects() {
       <h2 className="subtitles reverse">My Projects</h2>
       <div className="projects">
         {projects.map((project) => (
-          <section key={project.alt} className="projectItem">
-            <a data-aos="fade-up" target="_blank" href={project.href}>
+          <section data-aos="fade-up" key={project.alt} className="projectItem">
+            <a target="_blank" href={project.href}>
               <img
                 className="projectImg"
                 decoding="async"
@@ -58,6 +58,8 @@ export default function Projects() {
             <h2>{project.alt}</h2>
           </section>
         ))}
+        <br></br>
+        <br></br>
       </div>
     </div>
   );

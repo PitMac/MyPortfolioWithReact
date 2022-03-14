@@ -34,7 +34,7 @@ export default function About() {
     <div id="About">
       <div className="aboutbg">
         <div className="about">
-          <div className="aboutSection">
+          <section className="aboutSection">
             <h1 className="aboutTitle">What about me?</h1>
             <p className="aboutMe">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -53,7 +53,7 @@ export default function About() {
                 ></img>
               ))}
             </section>
-          </div>
+          </section>
           <img
             data-aos="fade-right"
             className="imgLogo2"

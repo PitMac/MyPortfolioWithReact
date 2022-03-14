@@ -8,13 +8,6 @@
 }
 
 :root {
-  --primary-color: #eeeeee;
-  --secondary-color: #2196f3;
-  --text-color: #16161e;
-  --bg-color: white;
-}
-
-.darkMode {
   --primary-color: #16161e;
   --secondary-color: #2196f3;
   --text-color: #eeeeee;
@@ -24,18 +17,32 @@
 body {
   background-color: var(--primary-color);
   transition: background 1s;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2195f393;
 }
 
 .ellipse {
   position: absolute;
   z-index: -1;
   height: 100vh;
-}
-
-.container {
-  display: grid;
-  width: 100vw;
 }
 
 .title {
@@ -67,6 +74,7 @@ body {
 
 .alert {
   display: block;
+  z-index: 1;
   position: fixed;
   left: -190px;
   margin-top: 20px;

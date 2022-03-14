@@ -47,7 +47,7 @@
 
 .skillImg {
   height: 60px;
-  margin-right: 20px;
+  margin: 0px 10px;
   object-fit: contain;
 }
 
@@ -65,6 +65,20 @@
     margin: auto;
     width: 90%;
     height: 100vh;
+  }
+  .skillSection {
+    display: flex;
+    justify-content: center;
+    /* background-color: aliceblue; */
+    margin-top: 20px;
+  }
+  .aboutTitle {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .skillTitle {
+    text-align: center;
   }
 
   .imgLogo2 {
@@ -112,6 +126,9 @@
 }
 
 @media (max-width: 685px) {
+  .skillImg {
+    height: 50px;
+  }
   .skills {
     display: grid;
     padding-top: 50px;
