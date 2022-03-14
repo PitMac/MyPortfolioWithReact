@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import ThemeButton from "./components/ThemeButton";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import "aos/dist/aos.css";
 import AOS from "aos";
 
 function App() {
