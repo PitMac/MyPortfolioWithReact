@@ -54,7 +54,7 @@ export default function About() {
             </section>
           </div>
           <img
-            data-aos="fade-left"
+            data-aos="fade-right"
             className="imgLogo2"
             src="https://avatars.githubusercontent.com/u/81378436?v=4"
             alt="Logo"

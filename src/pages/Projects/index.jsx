@@ -2,12 +2,13 @@ import "./index.css";
 import Ecovid from "../../assets/projects/ecovid.png";
 import FreeGames from "../../assets/projects/freegamesapp.png";
 import Anime from "../../assets/projects/animeapp.png";
+import DisneyC from "../../assets/projects/disneyCharacters.png";
 
 export default function Projects() {
   const projects = [
     {
-      href: "https://github.com/PitMac/ECovid-App-Flutter",
-      src: Ecovid,
+      href: "https://github.com/PitMac/DisneyCharacters-React",
+      src: DisneyC,
       alt: "Disney Characters",
     },
     {

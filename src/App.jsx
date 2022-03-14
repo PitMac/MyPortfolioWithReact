@@ -8,7 +8,6 @@ import ThemeButton from "./components/ThemeButton";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import AOS from "aos";
-import "aos/dist/aos.css";
 
 function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
