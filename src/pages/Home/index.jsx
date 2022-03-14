@@ -1,3 +1,4 @@
+import "aos/dist/aos.css";
 import "./index.css";
 
 export default function Home() {

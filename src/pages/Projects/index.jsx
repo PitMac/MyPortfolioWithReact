@@ -1,8 +1,9 @@
-import "./index.css";
 import Ecovid from "../../assets/projects/ecovid.png";
 import FreeGames from "../../assets/projects/freegamesapp.png";
 import Anime from "../../assets/projects/animeapp.png";
 import DisneyC from "../../assets/projects/disneyCharacters.png";
+import "./index.css";
+import "aos/dist/aos.css";
 
 export default function Projects() {
   const projects = [

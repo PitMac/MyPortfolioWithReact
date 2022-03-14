@@ -1,9 +1,10 @@
-import "./index.css";
 import Flutter from "../../assets/skills/flutter.png";
 import React from "../../assets/skills/react.png";
 import Firebase from "../../assets/skills/firebase.png";
 import Node from "../../assets/skills/node.png";
 import SQL from "../../assets/skills/sql.png";
+import "aos/dist/aos.css";
+import "./index.css";
 
 export default function About() {
   const skills = [
