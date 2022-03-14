@@ -1,0 +1,132 @@
+#About {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.aboutbg {
+  background-color: var(--secondary-color);
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: auto;
+  width: 70%;
+  height: 80vh;
+}
+
+.aboutTitle {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.imgLogo2 {
+  justify-content: center;
+  display: flex;
+  align-self: center;
+}
+
+.aboutMe {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin: 30px 0px;
+}
+
+.skillSection {
+  margin-top: 20px;
+}
+
+.skillImg {
+  height: 60px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.skillTitle {
+  color: var(--primary-color);
+}
+@media (max-width: 1305px) {
+  .aboutSection {
+    display: flex;
+    width: 100%;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+  }
+
+  .imgLogo2 {
+    display: flex;
+    padding-top: 30px;
+    justify-self: center;
+    padding-bottom: 50px;
+  }
+  .skillImg {
+    height: 60px;
+  }
+  @media (max-height: 800px) {
+    #About {
+      height: auto;
+    }
+    .about {
+      height: 100%;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .aboutMe {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .aboutSection {
+    padding-top: 20px;
+  }
+  .aboutTitle {
+    padding-top: 20px;
+    font-size: 2.1rem;
+  }
+  .skills {
+    display: grid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 685px) {
+  .skills {
+    display: grid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .imgLogo2 {
+    display: flex;
+    padding-top: 30px;
+    justify-self: center;
+    width: 80vw;
+  }
+}
