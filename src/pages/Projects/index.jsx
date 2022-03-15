@@ -40,27 +40,35 @@ export default function Projects() {
   ];
   return (
     <div id="Projects">
-      <br></br>
-      <br></br>
-      <h2 className="subtitles reverse">My Projects</h2>
+      <h2 className="subtitle">My Projects</h2>
       <div className="projects">
         {projects.map((project) => (
-          <section data-aos="fade-up" key={project.alt} className="projectItem">
-            <a target="_blank" href={project.href}>
-              <img
-                className="projectImg"
-                decoding="async"
-                loading="lazy"
-                src={project.src}
-                alt={project.alt}
-              ></img>
-            </a>
+          <a
+            target="_blank"
+            href={project.href}
+            data-aos="fade-up"
+            key={project.alt}
+            className="projectItem"
+          >
+            <img
+              className="projectImg"
+              decoding="async"
+              loading="lazy"
+              src={project.src}
+              alt={project.alt}
+            ></img>
+            <br />
             <h2>{project.alt}</h2>
-          </section>
+          </a>
         ))}
-        <br></br>
-        <br></br>
       </div>
+      <a
+        target="_blank"
+        href="https://github.com/PitMac"
+        className="btn moreProjects"
+      >
+        More projects...
+      </a>
     </div>
   );
 }

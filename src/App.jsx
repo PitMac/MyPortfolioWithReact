@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Ellipse from "./assets/Ellipse 1.png";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Contact from "./pages/Contact";
@@ -24,7 +23,6 @@ function App() {
 
   return (
     <>
-      <img className="ellipse" src={Ellipse} alt="ellipse"></img>
       <div className="alert">
         <h3>Copied Email</h3>
       </div>
