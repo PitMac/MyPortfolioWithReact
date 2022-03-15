@@ -1,7 +1,7 @@
-import Ecovid from "../../assets/projects/ecovid.png";
-import FreeGames from "../../assets/projects/freegamesapp.png";
-import Anime from "../../assets/projects/animeapp.png";
-import DisneyC from "../../assets/projects/disneyCharacters.png";
+import Ecovid from "../../assets/projects/ecovid.webp";
+import FreeGames from "../../assets/projects/freegamesapp.webp";
+import Anime from "../../assets/projects/animeapp.webp";
+import DisneyC from "../../assets/projects/disneyCharacters.webp";
 import "./index.css";
 import "aos/dist/aos.css";
 

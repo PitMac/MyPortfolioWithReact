@@ -1,8 +1,8 @@
-import Flutter from "../../assets/skills/flutter.png";
-import React from "../../assets/skills/react.png";
-import Firebase from "../../assets/skills/firebase.png";
-import Node from "../../assets/skills/node.png";
-import SQL from "../../assets/skills/sql.png";
+import Flutter from "../../assets/skills/flutter.webp";
+import React from "../../assets/skills/react.webp";
+import Firebase from "../../assets/skills/firebase.webp";
+import Node from "../../assets/skills/node.webp";
+import SQL from "../../assets/skills/sql.webp";
 import "aos/dist/aos.css";
 import "./index.css";
 
