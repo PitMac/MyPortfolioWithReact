@@ -28,7 +28,7 @@
 }
 
 .aboutMe {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: white;
   margin: 30px 0px;
 }
@@ -47,16 +47,16 @@
 }
 
 @media (max-width: 1305px) {
-  .aboutSection {
-    display: flex;
-    width: 100%;
-  }
   .about {
     display: grid;
     grid-template-columns: 1fr;
     margin: auto;
     width: 90%;
     height: 100vh;
+  }
+  .aboutSection {
+    display: flex;
+    width: 100%;
   }
   .skillSection {
     display: flex;
@@ -100,6 +100,10 @@
 
   .imgLogo2 {
     justify-self: center;
-    width: 80vw;
+    width: 70vw;
+  }
+  .about {
+    display: grid;
+    grid-template-rows: 1fr 0.7fr;
   }
 }

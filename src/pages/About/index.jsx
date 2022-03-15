@@ -10,7 +10,7 @@ export default function About() {
   const skills = [
     {
       src: React,
-      alt: "React",
+      alt: "React & React Native",
     },
     {
       src: Flutter,
@@ -34,17 +34,28 @@ export default function About() {
     <div id="About">
       <div className="about">
         <section className="aboutSection">
-          <h1 className="subtitle">What about me?</h1>
+          <h1 className="subtitle">
+            <span className="colorText">About me</span>
+          </h1>
           <p className="aboutMe">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
-            nemo minus ea saepe ducimus, iure obcaecati temporibus consequuntur
-            repudiandae veniam ratione expedita molestiae natus doloribus neque
-            dignissimos est vel consequatur!
+            ✔️ My name is{" "}
+            <span className="colorText">Jhon David Pita Macias</span>. I am a
+            web developer and mobile development lover 📲. I have worked on my
+            own projects with{" "}
+            <span className="colorText">ReactJS, Flutter, and NodeJS</span>. I
+            am also prepared to learn{" "}
+            <span className="colorText">new technologies</span> without any
+            problem 👾. My favorite hobbies are listening to{" "}
+            <span className="colorText">music</span> 🎶 and playing{" "}
+            <span className="colorText">videogames</span> 🎮.
           </p>
-          <h2 className="skillTitle">My Skills:</h2>
+          <h2 className="skillTitle">
+            <span className="colorText"> My Skills:</span>
+          </h2>
           <section className="skillSection">
             {skills.map((skill) => (
               <img
+                title={skill.alt}
                 key={skill.alt}
                 className="skillImg"
                 src={skill.src}

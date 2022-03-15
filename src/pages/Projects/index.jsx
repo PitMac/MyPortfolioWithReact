@@ -40,7 +40,9 @@ export default function Projects() {
   ];
   return (
     <div id="Projects">
-      <h2 className="subtitle">My Projects</h2>
+      <h2 className="subtitle">
+        <span className="colorText">My Projects</span>
+      </h2>
       <div className="projects">
         {projects.map((project) => (
           <a
