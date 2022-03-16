@@ -19,7 +19,7 @@
 }
 
 .skillName {
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 @media (max-width: 1305px) {
@@ -30,6 +30,6 @@
 @media (max-width: 685px) {
   .skillImg {
     height: 30px;
-    margin: 5px 2px;
+    /* margin: 5px 5px; */
   }
 }
