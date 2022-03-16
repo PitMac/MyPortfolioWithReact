@@ -18,23 +18,23 @@ export default function NavBar() {
   return (
     <>
       <nav className="menu">
-        <ul>
-          <li>
+        <ul className="menuNav">
+          <li className="navItem">
             <a className="menuItem" href="#Home">
               Home
             </a>
           </li>
-          <li>
+          <li className="navItem">
             <a className="menuItem" href="#About">
               About
             </a>
           </li>
-          <li>
+          <li className="navItem">
             <a className="menuItem" href="#Projects">
               Projects
             </a>
           </li>
-          <li>
+          <li className="navItem">
             <a className="menuItem" href="#Contact">
               Contact
             </a>

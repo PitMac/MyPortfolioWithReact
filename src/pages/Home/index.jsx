@@ -1,4 +1,5 @@
 import Ellipse from "../../assets/Ellipse 1.png";
+import CV from "../../assets/CV.pdf";
 
 import "aos/dist/aos.css";
 import "./index.css";
@@ -23,7 +24,9 @@ export default function Home() {
               A <span className="colorText">FullStack</span> Developer
             </h3>
             <section className="buttonsSection">
-              <a className="btn">CV</a>
+              <a href={CV} className="btn" download="CV.pdf">
+                CV
+              </a>
               <a
                 target="_blank"
                 href="https://github.com/PitMac"

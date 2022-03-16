@@ -1,9 +1,9 @@
 import "./index.css";
 export default function Contact({ copyEmail }) {
   return (
-    <div id="Contact">
+    <>
       <hr />
-      <section className="contact">
+      <div id="Contact" className="contact">
         <a
           target="_blank"
           href="https://www.linkedin.com/in/jhon-pita-macias-64362b217/"
@@ -46,7 +46,7 @@ export default function Contact({ copyEmail }) {
         >
           <i className="fa-brands fa-youtube fa-2x"></i>
         </a>
-      </section>
-    </div>
+      </div>
+    </>
   );
 }
