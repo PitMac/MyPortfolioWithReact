@@ -8,6 +8,7 @@ export default function Projects() {
       <h2 className="subtitle">
         <span className="colorText">My Projects</span>
       </h2>
+      <br />
       <ProjectItem />
       <a
         target="_blank"
